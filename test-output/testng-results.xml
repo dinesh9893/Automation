@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[test]]>
+      <![CDATA[hello]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="79" started-at="2018-09-24T09:05:18Z" finished-at="2018-09-24T09:05:18Z">
+  <suite name="Default suite" duration-ms="48" started-at="2018-09-25T05:12:59Z" finished-at="2018-09-25T05:12:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="79" started-at="2018-09-24T09:05:18Z" finished-at="2018-09-24T09:05:18Z">
-      <class name="qsp.B">
-        <test-method status="PASS" signature="test()[pri:0, instance:qsp.B@61832929]" name="test" duration-ms="23" started-at="2018-09-24T09:05:18Z" finished-at="2018-09-24T09:05:18Z">
+    <test name="Default test" duration-ms="48" started-at="2018-09-25T05:12:59Z" finished-at="2018-09-25T05:12:59Z">
+      <class name="qsp.A">
+        <test-method status="PASS" signature="test()[pri:0, instance:qsp.A@61832929]" name="test" duration-ms="18" started-at="2018-09-25T05:12:59Z" finished-at="2018-09-25T05:12:59Z">
           <reporter-output>
             <line>
-              <![CDATA[test]]>
+              <![CDATA[hello]]>
             </line>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- qsp.B -->
+      </class> <!-- qsp.A -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
