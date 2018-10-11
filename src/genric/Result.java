@@ -3,9 +3,8 @@ package genric;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.Reporter;
 
-public class Result implements ITestListener, IAutoConst {
+public class Result extends BaseTest implements ITestListener, IAutoConst {
 
 	public static int passCount=0, failCount=0;
 	
@@ -47,8 +46,6 @@ public class Result implements ITestListener, IAutoConst {
 
 	@Override
 	public void onFinish(ITestContext context) {
-		Reporter.log("Passcount is: "+passCount,true);
-		Reporter.log("Failcount is: "+failCount,true);
 		Utility.writeResultToXL(SUMMARY_PATH,"sheet1",passCount,failCount);
 		
 		

@@ -12,11 +12,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="jars/commons-codec-1.10.jar"/>
 	<classpathentry kind="lib" path="jars/commons-collections4-4.1.jar"/>
 	<classpathentry kind="lib" path="jars/commons-logging-1.2.jar"/>
@@ -30,5 +25,6 @@
 	<classpathentry kind="lib" path="jars/poi-ooxml-schemas-3.17.jar"/>
 	<classpathentry kind="lib" path="jars/poi-scratchpad-3.17.jar"/>
 	<classpathentry kind="lib" path="jars/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="jars/selenium-server-standalone-3.13.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

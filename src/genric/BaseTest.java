@@ -3,9 +3,12 @@ package genric;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.ITestResult;
+import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 public abstract class BaseTest implements IAutoConst{
 	
@@ -19,17 +22,26 @@ public abstract class BaseTest implements IAutoConst{
 		System.setProperty(FIREFOX_KEY, FIREFOX_VALUE);
 	}
 	
-	@BeforeMethod
-	public void openApp()
+	@Parameters({"ip","browser"})
+	@BeforeMethod(alwaysRun=true)
+	public void openApp(@Optional("localhost")String ip,@Optional("chrome")String browser)
 	{
-		driver=new ChromeDriver();
+		driver=Utility.openBrowser(driver, ip, browser);
 		driver.manage().timeouts().implicitlyWait(duration, TimeUnit.SECONDS);
 		driver.get(url);
 	}
 
-	@AfterMethod
-	public void closingApp()
+	@AfterMethod(alwaysRun=true)
+	public void closingApp(ITestResult result)
 	{
+		String name = result.getName();
+		int status = result.getStatus();
+		if (status == 2) {
+			Utility.getPhoto(driver, PHOTO_PATH);
+			Reporter.log("Test:" + name + " is Failed", true);
+		} else {
+			Reporter.log("Test:" + name + " is Passed", true);
+		}
 		driver.close();
 	}
 	
