@@ -1,0 +1,170 @@
+%PDF-1.4
+1 0 obj
+<<
+/Infix <</Changes [7 1 R] /GridDivisions 8 /GridSpacing 72 /IceniSetup 6 2 R 
+/MaxGID 0 /NamedStyles <<>> /ShowGrid false /ShowGuides false /SnapToGrid false
+ /UserRestrictions 11 0 R >>
+/Outlines 2 0 R
+/Pages 3 1 R
+/Type /Catalog
+>>
+endobj
+2 0 obj
+<<
+/Count 0
+/Type /Outlines
+>>
+endobj
+3 1 obj
+<<
+/Count 1
+/Kids [4 0 R]
+/Type /Pages
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/ICNValidStructure 0
+/Margins [0 0 0 0]
+/MediaBox [0 0 612 792]
+/Parent 3 1 R
+/Resources <</Font <</F1 9 0 R >> /ProcSet 8 0 R >>
+/Type /Page
+>>
+endobj
+5 0 obj
+<<
+/Length 1074
+>>
+stream
+2 J
+BT
+0 0 0 rg
+/F1 0027 Tf
+57.3750 722.2800 Td
+( A Simple PDF File ) Tj
+ET
+BT
+/F1 0010 Tf
+69.2500 688.6080 Td
+( This is a small demonstration .pdf file - ) Tj
+ET
+BT
+/F1 0010 Tf
+69.2500 664.7040 Td
+( just for use in the Virtual Mechanics tutorials. More text. And more ) Tj
+ET
+BT
+/F1 0010 Tf
+69.2500 652.7520 Td
+( text. And more text. And more text. And more text. ) Tj
+ET
+BT
+/F1 0010 Tf
+69.2500 628.8480 Td
+( And more text. And more text. And more text. And more text. And more ) Tj
+ET
+BT
+/F1 0010 Tf
+69.2500 616.8960 Td
+( text. And more text. Boring, zzzzz. And more text. And more text. And ) Tj
+ET
+BT
+/F1 0010 Tf
+69.2500 604.9440 Td
+( more text. And more text. And more text. And more text. And more text. ) Tj
+ET
+BT
+/F1 0010 Tf
+69.2500 592.9920 Td
+( And more text. And more text. ) Tj
+ET
+BT
+/F1 0010 Tf
+69.2500 569.0880 Td
+( And more text. And more text. And more text. And more text. And more ) Tj
+ET
+BT
+/F1 0010 Tf
+69.2500 557.1360 Td
+( text. And more text. And more text. Even more. Continued on page 2 ...) Tj
+ET
+
+endstream
+
+endobj
+6 2 obj
+<<
+/Length 183
+/Subtype /XML
+/Type /Metadata
+>>
+stream
+<?xpacket begin='' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<IceniSetup>
+    <UniqueID>20297</UniqueID>
+    <UserRestrictions>
+    </UserRestrictions>
+</IceniSetup>
+<?xpacket end='r'?>
+
+endstream
+
+endobj
+7 1 obj
+<<
+/ModDate (D:20181118215619)
+/User (DK)
+>>
+endobj
+8 0 obj
+[/PDF /Text]
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/CreationDate (D:20060301072826)
+/Creator (Rave \(http://www.nevrona.com/rave\)\(Foxit Advanced PDF Editor\))
+/ICNAppName (Foxit Advanced PDF Editor)
+/ICNAppPlatform (Windows)
+/ICNAppVersion (3.05)
+/ModDate (D:20181118215619)
+/Producer (Nevrona Designs)
+>>
+endobj
+11 0 obj
+<<
+>>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000261 00000 n 
+0000000307 00001 n 
+0000000364 00000 n 
+0000000543 00000 n 
+0000001670 00002 n 
+0000001935 00001 n 
+0000001995 00000 n 
+0000002023 00000 n 
+0000002130 00000 n 
+0000002406 00000 n 
+trailer
+<<
+/Info 10 0 R
+/Root 1 0 R
+/Size 12
+>>
+startxref
+2428
+%%EOF

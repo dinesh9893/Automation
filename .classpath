@@ -26,5 +26,7 @@
 	<classpathentry kind="lib" path="jars/poi-scratchpad-3.17.jar"/>
 	<classpathentry kind="lib" path="jars/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="lib" path="jars/selenium-server-standalone-3.13.0.jar"/>
+	<classpathentry kind="lib" path="jars/pdfbox-2.0.12.jar"/>
+	<classpathentry kind="lib" path="jars/fontbox-2.0.12.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
